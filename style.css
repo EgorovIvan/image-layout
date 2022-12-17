@@ -1,0 +1,90 @@
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    background-color: #d9d9d9;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.circle {
+    position: absolute;
+    top: -105px;
+    left: -105px;
+    width: 320px;
+    height: 320px;
+    border-radius: 160px;
+    border: 2px solid #357959;
+    box-sizing: border-box;
+    background: #248456;
+    z-index: 3;
+}
+
+.triangle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 107px;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    border-bottom: 2px solid #aa492f;
+    box-sizing: border-box;
+    background: #ce3607;
+    z-index: 3;
+}
+
+.triangle-border-diagonal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 107px;
+    clip-path: polygon(100% 0, 100% 2%, 2% 100%, 0 100%);
+    background: #aa492f;
+    z-index: 4;
+}
+
+.circle2 {
+    position: absolute;
+    top: 135px;
+    right: 75px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #1b9263;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: #0ca565;
+    z-index: 5;
+}
+
+.rectangle {
+    position: absolute;
+    bottom: 50px;
+    left: 49px;
+    width: 300px;
+    height: 80px;
+    border-radius: 30px;
+    border: 2px solid #752795;
+    box-sizing: border-box;
+    background: #910fbf;
+    z-index: 5;
+}
+
+.rectangle2 {
+    position: absolute;
+    top: 150px;
+    left: 43px;
+    transform: rotate(-133deg);
+    width: 310px;
+    height: 47px;
+    border: 2px solid #1c326a;
+    box-sizing: border-box;
+    background: #1c3f9a;
+    z-index: 4;
+}
